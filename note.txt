@@ -1,0 +1,18 @@
+# Download Package ini terlebih dahulu di terminal
+opencv-python
+mediapipe
+numpy
+
+# Gesture
+.\.venv\Scripts\python.exe gesture.py
+
+
+# Foto Blur
+.\.venv\Scripts\python.exe blur.py
+
+
+#flappy bird
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\python.exe flappy.py
+
